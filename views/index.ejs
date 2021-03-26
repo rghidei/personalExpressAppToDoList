@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TO DO LIST</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <!-- <link rel="stylesheet" href="font-awesome.min.css"> -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form action="/messages" method="POST">
+    <input id="activity" type="text" name="activity" value="" placeholder="Enter an Activity...">
+    <!-- <button id="add" type="submit" name="button">Add</button> -->
+    <button id="clearAll" type="button" name="button" placeholder="clearAll">Clear All</button>
+    <button id="removeBtn" type="button" name="button">Remove Completed</button>
+    <button id="add" type="submit" name="button">Add</button>
+  </form>
+  <h1>Your To Do List</h1>
+  <p >You Have <span id="numberOfItems">_</span> Uncompleted Tasks!</p>
+  <section class="mainBlock">
+    <ul class="items" id="list">
+      <% for(var i=0; i<messages.length; i++) {%>
+        <li id="<%= messages[i]._id%>" class="item">
+
+          <span id="act" class="task
+          <% if (messages[i].isCompleted) {%> done <% } %>
+          "><%= messages[i].activity %></span>
+          <span class="hide"><%= messages[i].isCompleted %></span>
+          <span class="tags"><%= messages[i]._id%></span>
+
+        </li>
+
+        <% } %>
+    </ul>
+  </section>
+  <section class="quote">
+    <h2>Why Put Off For Tomorrow What You Can Do Today?</h2>
+  </section>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
