@@ -13,9 +13,7 @@ var objectId = new ObjectID();
 
 
 var db, collection;
-// const url = "mongodb+srv://rodasghidei:willow@cluster0.oltxa.mongodb.net/todo?retryWrites=true&w=majority";
-//
-// const dbName = "todo";
+
 
 app.listen(PORT, () => {
 

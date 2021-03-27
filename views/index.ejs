@@ -3,17 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>TO DO LIST</title>
-  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="shortcut icon" href="f4.ico">
   <!-- <link rel="stylesheet" href="font-awesome.min.css"> -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <form action="/messages" method="POST">
-    <input id="activity" type="text" name="activity" value="" placeholder="Enter an Activity...">
-    <!-- <button id="add" type="submit" name="button">Add</button> -->
-    <button id="clearAll" type="button" name="button" placeholder="clearAll">Clear All</button>
-    <button id="removeBtn" type="button" name="button">Remove Completed</button>
+    <input id="activity" type="text" name="activity" value="" placeholder="Enter a Task...">
     <button id="add" type="submit" name="button">Add</button>
+    <button id="removeBtn" type="button" name="button">Remove Completed</button>
+    <button id="clearAll" type="button" name="button" placeholder="clearAll">Clear All</button>
   </form>
   <h1>Your To Do List</h1>
   <p >You Have <span id="numberOfItems">_</span> Uncompleted Tasks!</p>
