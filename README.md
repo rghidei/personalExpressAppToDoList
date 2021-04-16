@@ -1,10 +1,8 @@
 ## Personal Express App To Do List
 
--I created a website where users can keep track of their errands by typing in their tasks for the day. They can complete tasks, remove completed tasks and they can delete all they tasks. Also, it will keep track of all uncompleted tasks. 
+-I created a website where users can keep track of their errands by typing in their tasks for the day. They can complete tasks, remove completed tasks and they can delete all they tasks. Also, it will keep track of all uncompleted tasks.
 
-[Checkout my portfolio to see live app](https://rodasghidei.netlify.app/)
-
-![TO DO LIST](public/todopic.png)
+[Checkout my live app](https://personalexpressflowers.herokuapp.com/))
 
 ## How It's Made:
 
@@ -19,9 +17,13 @@
 ##Examples:
 
 --Take a look at these couple examples that I have in my own portfolio:
+[Checkout my portfolio to see live app](https://rodasghidei.netlify.app/)
+
 
 ## Other Projects
-[TO-DO-LIST - EXPRESS](https://personalexpressflowers.herokuapp.com/)
+[To-Do-List - Express](https://personalexpressflowers.herokuapp.com/)
+[Show-Off-Your-Style - FullStackLogin](https://show-your-style.herokuapp.com/)
+[Kitty-Cafe- - FullStackLogin](https://kitty-barista-cafe.herokuapp.com/)
 ## Installation
 
 1. Clone repo

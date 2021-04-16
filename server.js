@@ -16,17 +16,11 @@ var db, collection;
 
 
 app.listen(PORT, () => {
-
-
     MongoClient.connect(DB_URL, { useNewUrlParser: true, useUnifiedTopology: true }, (error, client) => {
         if(error) {
-          console.log('fihs')
-
             throw error;
         }
-
         db = client.db(DB_NAME);
-        // console.log(db)
         console.log("Connected to `" + DB_NAME + "`!");
     });
 });
@@ -46,7 +40,11 @@ app.get('/', (req, res) => {
 
 app.post('/messages', (req, res) => {
 console.log('fluff')
-  db.collection('messages').insertOne({activity: req.body.activity, isCompleted: false, _id: req.body._id }, (err, result) => {
+  db.collection('messages').insertOne(
+    {activity: req.body.activity,
+    isCompleted: false,
+    _id: req.body._id },
+    (err, result) => {
 
     if (err) return console.log(err)
     console.log('saved to database')
