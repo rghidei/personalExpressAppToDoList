@@ -24,6 +24,9 @@
 [To-Do-List - Express](https://personalexpressflowers.herokuapp.com/)
 [Show-Off-Your-Style - FullStackLogin](https://show-your-style.herokuapp.com/)
 [Kitty-Cafe- - FullStackLogin](https://kitty-barista-cafe.herokuapp.com/)
+[Bloom-Cafe- - FullStackLogin](https://bloom-cafe.herokuapp.com/)
+[Roulette-Fun - FullStackLogin](https://bloom-cafe.herokuapp.com/)
+
 ## Installation
 
 1. Clone repo
